@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.image-style{
+    @apply -ml-3 border-[3px] border-white w-10 h-10 rounded-full object-cover;
+}
+
+#block{
+    display: block;
+}
+
+div#block{
+    display: flex;
+}
